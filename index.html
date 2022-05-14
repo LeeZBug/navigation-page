@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="renderer" content="webkit">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<title>导航平台</title>
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div id="top">
+				<div id="logo">
+				    <img class="logo" src="img/whitelogo.png">
+					<h1>导航平台</h1>
+					
+					<!-- 右上角翻转页面 -->
+					<div id="kg-btn" class="">
+						<input class='tgl tgl-flip' id='qieh' type='checkbox' />
+						<label class='tgl-btn' data-tg-off='公司' data-tg-on='项目' for='qieh'></label>
+					</div>
+					
+				</div>
+			</div>
+		
+		
+			
+			<div id="main">
+			<!-- 外网访问地址 -->
+				<div id="app" class="app animated fadeInLeft">
+				
+							<!--  百度搜索  -->
+							<div id='baidu' align='center' >
+								<form onsubmit="return baiduWithHttps(this)" action="http://www.baidu.com/baidu" target="_blank">
+										<input name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w">
+										<input type="text"  onfocus="checkHttps" name="word"  size="60px" >
+										<input type="submit" value="百度一下"  size="15px">
+								</form>
+							</div>
+					<ul>
+						<!--  增加li标签  -->
+						<li>
+							<a href="http://jenkins.com" target="_blank"><img class="shake" src="img/png/jenkins.png" /><strong>Jenkins</strong></a>
+						</li>
+
+						<li>
+							<a href="http://172.18.10.33:8081/" target="_blank"><img class="shake" src="img/png/nexus.png" /><strong>Nexus3</strong></a>
+						</li>
+
+						<li>
+							<a href="http://jira.local" target="_blank"><img class="shake" src="img/png/jira.png" /><strong>Jira</strong></a>
+						</li>
+
+						<li>
+							<a href="http://gitlab.local" target="_blank"><img class="shake" src="img/png/gitlab.png" /><strong>GitLab</strong></a>
+						</li>
+
+						<li>
+							<a href="http://wk.cn" target="_blank"><img class="shake" src="img/png/confluence.png" /><strong>Confluence</strong></a>
+						</li>
+
+						<li>
+							<a href="http://172.18.10.119:9090" target="_blank"><img class="shake" src="img/png/prometheus.png" /><strong>Promtheus</strong></a>
+						</li>
+
+						<li>
+							<a href="http://172.18.10.119:3000" target="_blank"><img class="shake" src="img/png/grafana.png" /><strong>Grafana</strong></a>
+						</li>
+
+						<li>
+							<a href="http://zentao.local/" target="_blank"><img class="shake" src="img/png/zentao.png" /><strong>Zentao</strong></a>
+						</li>
+
+						<li>
+							<a href="https://172.18.10.5" target="_blank"><img class="shake" src="img/png/vsphere.png" /><strong>YZ-Vsphere</strong></a>
+						</li>
+
+						<li>
+							<a href="http://10.0.1.231/index.php" target="_blank"><img class="shake" src="img/png/zabbix.png" /><strong>Zabbix</strong></a>
+						</li>
+
+						<li>
+							<a href="http://10.0.1.118/app/kibana" target="_blank"><img class="shake" src="img/png/kibana.png" /><strong>Kibana</strong></a>
+						</li>
+
+						<li>
+							<a href="http://10.0.1.71:8848/nacos" target="_blank"><img class="shake" src="img/png/nacos.png" /><strong>Nacos</strong></a>
+						</li>
+
+						<li>
+							<a href="http://10.0.1.46" target="_blank"><img class="shake" src="img/png/jumpserver.png" /><strong>Jumpserver</strong></a>
+						</li>
+
+						<li>
+							<a href="http://10.0.1.119" target="_blank"><img class="shake" src="img/png/harbor.png" /><strong>Harbor</strong></a>
+						</li>
+
+						<li>
+							<a href="" target="_blank"><img class="shake" src="img/png/k8s.png" /><strong>K8sDashboard</strong></a>
+						</li>
+
+						<li>
+							<a href="http://172.18.10.119:9091/dist" target="_blank"><img class="shake" src="img/png/redis.png" /><strong>RedisWeb</strong></a>
+						</li>
+
+						<li>
+							<a href="http://10.0.3.101:9001" target="_blank"><img class="shake" src="img/png/portainer.png" /><strong>Portainer</strong></a>
+						</li>
+
+						<li>
+							<a href="https://10.0.1.249" target="_blank"><img class="shake" src="img/png/vsphere.png" /><strong>BJ-Vsphere</strong></a>
+						</li>
+					</ul>
+				</div>
+				
+				
+				<!-- 内网网访问地址 -->
+				<div id="app1" class="app animated fadeInRight">
+							<!-- 增加 百度搜索   下方-->
+							<div id='baidu' align='center' >
+			
+								<form onsubmit="return baiduWithHttps(this)" action="http://www.baidu.com/baidu" target="_blank">
+										<input name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w">
+										<input type="text"  onfocus="checkHttps" name="word"  size="60px" >
+										<input type="submit" value="百度一下"  size="15px">
+								</form>
+							</div>
+							<!-- 增加 百度搜索   上方-->
+							
+					<ul>
+						<li>
+							<a href="" target="_blank"><img class="shake" src="img/png/xiangmu.png" /><strong>项目1</strong></a>
+						</li>
+
+						<li>
+							<a href="" target="_blank"><img class="shake" src="img/png/xiangmu.png" /><strong>项目2</strong></a>
+						</li>
+
+						<li>
+							<a href="" target="_blank"><img class="shake" src="img/png/xiangmu.png" /><strong>项目3</strong></a>
+						</li>
+
+						
+					</ul>
+				</div>
+			</div>
+		
+		<div id="footer">
+			<div class="footer-contents">
+				<div class="links">
+					<div class="line">
+						<!-- 下行去掉注释可以增加底部文字链接等 -->
+						<!-- <a href="" target="_blank">远程工具下载</a>&nbsp;&nbsp;&nbsp;&nbsp;<span class="footer-link-separator"> -->
+						</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="copyright">Copyright © 2018 <a href="" target="_blank"><strong>公司主页</strong></a> Inc. 保留所有权利。</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script>
+
+				function checkHttps () {
+					BaiduHttps.useHttps();    
+				};
+				function baiduWithHttps (formname) {
+					var data = BaiduHttps.useHttps();
+					if (data.s === 0) {
+						return true;
+					}
+					else {
+						formname.action = 'https://www.baidu.com/baidu' + '?ssl_s=1&ssl_c' + data.ssl_code;
+						return true;
+					}
+				};
+		</script>
+	</body>
+
+</html>
